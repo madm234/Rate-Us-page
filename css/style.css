@@ -1,0 +1,116 @@
+*{
+    background-color: black;
+}
+
+.review_jug{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.review_box{
+    border-radius: 40px;
+    display: inline-block;
+    width: 30vw;
+    height: 80vh;
+    background-color: #222933;
+    position: relative;
+}
+
+.star_circle{
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #39404a;
+    top: 20px;
+    left: 35px;
+    width: 55px;
+    height: 55px;
+    /* display: inline-block; */
+    border-radius: 200px;
+}
+
+.bx{
+    color:#fc7613;
+    position: absolute;
+    font-size: 25px;
+    background-color: #39404a;
+
+}
+
+.rating_text{
+    position: absolute;
+    justify-content: center;
+    top: 25px;
+    left: 150px;
+    background-color: #222933;
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    font-weight: 500;
+}
+
+.review_mess{
+    color: white;
+    background-color: #222933;
+    left: 35px;
+    top: 95px;
+    display: inline-block;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.review_para{
+    color: rgb(177, 174, 174);
+    background-color: #222933;
+    left: 35px;
+    top: 170px;
+    display: inline-block;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rate_option{
+    position: relative;
+     display: flex;
+     top: 210px;
+     justify-content: center;
+    background-color: #222933;
+}
+
+.rate{
+    margin: 0 7px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    background-color: #39404a;
+    width: 55px;
+    height: 55px;
+    border-radius: 200px;
+}
+
+.submit_rate{
+    background-color: #fc7613;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    border: #fc7613;
+    border-radius: 40px;
+    color: white;
+    top: 350px;
+    left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.rate:hover {
+    background-color: #fc7613;
+}
+
+.submit_rate:hover {
+    background-color: #e69052;
+}
