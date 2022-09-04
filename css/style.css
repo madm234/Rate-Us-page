@@ -1,5 +1,6 @@
 *{
     background-color: black;
+    overflow: hidden;
 }
 
 .review_jug{
@@ -12,8 +13,8 @@
 .review_box{
     border-radius: 40px;
     display: inline-block;
-    width: 30vw;
-    height: 80vh;
+     width: 370px;
+    height: 480px;
     background-color: #222933;
     position: relative;
 }
